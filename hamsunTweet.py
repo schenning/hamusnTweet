@@ -43,7 +43,7 @@ def rnd(mi, ma):
 #api.update_status('Mye arti man kan gjøre på internett. Her kommer hele Knut Hamsuns' 'Sult'' på Twitter. Heng med! ')
 #time.sleep(10)
 for line in f:
-     api.update_status( '@stiansjogren ' + line)
+     api.update_status( '@yourTwitterName' + line)
      print line
      time.sleep(rnd(0,36)) # Sleep for random amount of time between 0 and 3600 seconds
 
