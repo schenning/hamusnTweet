@@ -3,8 +3,6 @@
 
 # written by Schenning 
 
-# Tweets a .txt file line by line, waiting an hour between each tweet.
-# Must be running all the time, e.g. on a Raspberry Pi.
 import tweepy, time, random
 
 
@@ -12,10 +10,10 @@ CHARS = 160
 
 
 
-CONSUMER_KEY = '6lPDNM7w5Nmc8SWaXXd3HXpg3'
-CONSUMER_SECRET = 'stwtvgcQzIYKPHFxXD05Rn0avP0hMS8tbWGeQ798argOAAsGmo' 
-ACCESS_KEY = '43185750-g8EmAa2DdAs4LXJn8flb1dTMHXkbpm9y8HFiRALr7'
-ACCESS_SECRET = 'HUniMxZHmeFvpe1O1gqHFHrZOJpUlQknqWgWzjx9T7wJj'
+CONSUMER_KEY = 
+CONSUMER_SECRET = 
+ACCESS_KEY = 
+ACCESS_SECRET =
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
